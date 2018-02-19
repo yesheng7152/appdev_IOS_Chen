@@ -14,6 +14,8 @@
 		2B0450F92027D3F500FFEDC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B0450F72027D3F500FFEDC1 /* LaunchScreen.storyboard */; };
 		2B0451042027D3F500FFEDC1 /* Toy_PracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0451032027D3F500FFEDC1 /* Toy_PracticeTests.swift */; };
 		2B04510F2027D3F500FFEDC1 /* Toy_PracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B04510E2027D3F500FFEDC1 /* Toy_PracticeUITests.swift */; };
+		2BE5BCB6203A47580045C3BB /* TableViewTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE5BCB5203A47580045C3BB /* TableViewTableTableViewController.swift */; };
+		2BE5BCB9203A47A80045C3BB /* CatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE5BCB8203A47A80045C3BB /* CatTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		2B04510A2027D3F500FFEDC1 /* Toy-PracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Toy-PracticeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B04510E2027D3F500FFEDC1 /* Toy_PracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toy_PracticeUITests.swift; sourceTree = "<group>"; };
 		2B0451102027D3F500FFEDC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BE5BCB5203A47580045C3BB /* TableViewTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewTableTableViewController.swift; sourceTree = "<group>"; };
+		2BE5BCB8203A47A80045C3BB /* CatTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,15 @@
 		2B0450ED2027D3F500FFEDC1 /* Toy-Practice */ = {
 			isa = PBXGroup;
 			children = (
+				2BE5BCB7203A47660045C3BB /* New Group */,
 				2B0450EE2027D3F500FFEDC1 /* AppDelegate.swift */,
 				2B0450F02027D3F500FFEDC1 /* ViewController.swift */,
 				2B0450F22027D3F500FFEDC1 /* Main.storyboard */,
 				2B0450F52027D3F500FFEDC1 /* Assets.xcassets */,
 				2B0450F72027D3F500FFEDC1 /* LaunchScreen.storyboard */,
 				2B0450FA2027D3F500FFEDC1 /* Info.plist */,
+				2BE5BCB5203A47580045C3BB /* TableViewTableTableViewController.swift */,
+				2BE5BCB8203A47A80045C3BB /* CatTableViewController.swift */,
 			);
 			path = "Toy-Practice";
 			sourceTree = "<group>";
@@ -123,6 +130,13 @@
 				2B0451102027D3F500FFEDC1 /* Info.plist */,
 			);
 			path = "Toy-PracticeUITests";
+			sourceTree = "<group>";
+		};
+		2BE5BCB7203A47660045C3BB /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +274,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B0450F12027D3F500FFEDC1 /* ViewController.swift in Sources */,
+				2BE5BCB6203A47580045C3BB /* TableViewTableTableViewController.swift in Sources */,
+				2BE5BCB9203A47A80045C3BB /* CatTableViewController.swift in Sources */,
 				2B0450EF2027D3F500FFEDC1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

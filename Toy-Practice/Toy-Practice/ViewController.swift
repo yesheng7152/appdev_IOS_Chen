@@ -10,6 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var Random: UILabel!
+    @IBOutlet weak var Classtext: UITextField!
+    @IBOutlet weak var Nametext: UITextField!
+    @IBAction func button(_ sender: Any) {
+        Random.text = Nametext.text! + " is in class " +
+        Classtext.text!
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
